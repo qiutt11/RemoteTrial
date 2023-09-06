@@ -1,0 +1,11 @@
+import datetime
+
+
+all=(1,datetime.datetime(2018, 1, 25, 0, 0),3, 'HY179FG25pM0000110')
+# all = ('e81e5e89d22d4d6f8c5565b16f9b6174', Decimal('39.75'), datetime.datetime(2018, 1, 25, 0, 0), 1, 'HY179FG25pM0000110')
+# repaytime = str(all[1]).strftime('%Y-%m-%d')  # date_time.strftime('%Y-%m-%d')
+# repaytime = datetime.datetime(2018, 1, 25, 0, 0).strftime('%Y-%m-%d')
+# repaytime = all[1].strftime('%Y-%m-%d')
+print('1'+all[1].strftime('%Y-%m-%d'))
+contnum = str(all[3])
+print(contnum)
